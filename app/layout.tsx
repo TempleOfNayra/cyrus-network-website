@@ -46,6 +46,12 @@ export default function RootLayout({
                   >
                     Whitepaper
                   </a>
+                  <a
+                    href="/docs"
+                    className="text-sm font-medium text-gray-700 hover:text-gray-900 hover:underline"
+                  >
+                    Docs
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,204 +1,186 @@
 export default function Whitepaper() {
+  const chapters = [
+    {
+      num: 1,
+      title: "The Problem — Global Financial Exclusion",
+      file: "/whitepaper/01-problem.md",
+      sections: [
+        "The Remittance Crisis",
+        "Cross-Border Commerce Barriers",
+        "Supply Chain Payment Delays",
+        "Trust Infrastructure Gap"
+      ]
+    },
+    {
+      num: 2,
+      title: "The Solution — Abstracted Value Transfer Protocol",
+      file: "/whitepaper/02-solution.md",
+      sections: [
+        "Core Insight: Abstraction",
+        "Three-Layer Architecture",
+        "Smart Contract Escrow",
+        "Broker Verification Network",
+        "Reputation System"
+      ]
+    },
+    {
+      num: 3,
+      title: "Protocol Architecture",
+      file: "/whitepaper/03-protocol.md",
+      sections: [
+        "Technical Specification",
+        "Smart Contract Design",
+        "Security Model",
+        "Scalability Approach",
+        "Interoperability"
+      ]
+    },
+    {
+      num: 4,
+      title: "Use Cases & Market Opportunity",
+      file: "/whitepaper/04-use-cases.md",
+      sections: [
+        "Remittances ($700B)",
+        "Trade Finance ($500B)",
+        "E-Commerce ($1T)",
+        "Supply Chain Finance ($1.5T)",
+        "Microfinance ($200B)"
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="mx-auto max-w-3xl">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Technical Whitepaper
-          </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            A comprehensive overview of the Abstracted Value Transfer Protocol (AVTP) and how it enables
-            trustless global commerce.
-          </p>
-        </div>
-
-        <div className="mt-16 space-y-12">
-          {/* Section 1: Problem */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">1. The Problem</h2>
-            <p className="mt-4 text-base text-gray-700">
-              Global commerce loses over $2 trillion annually due to trust barriers and intermediary inefficiencies.
-              Current solutions—banks, escrow agents, payment processors—add weeks of delays and billions in costs.
-            </p>
-            <div className="mt-6 space-y-2">
-              <h3 className="text-sm font-semibold text-gray-900">Key Statistics:</h3>
-              <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                <li>Letters of Credit: 8-10 weeks settlement, $500-5,000 per transaction</li>
-                <li>India COD: $180B locked capital, 15-25% return-to-origin fraud</li>
-                <li>Agricultural loans: 20-43% default rates due to unverified usage</li>
-                <li>Construction fraud: $98B annually, 25% of firms victimized</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Section 2: Solution */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">2. The Solution</h2>
-            <p className="mt-4 text-base text-gray-700">
-              AVTP solves trust problems by combining smart contract escrow with physical broker verification.
-              No traditional intermediaries needed—just protocol infrastructure.
-            </p>
-            <div className="mt-6 space-y-4">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Smart Contract Escrow</h3>
-                <p className="mt-1 text-sm text-gray-700">
-                  Funds locked in non-custodial smart contracts. Automated release based on verification conditions.
-                  No manual processing, no bank delays.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Physical Broker Verification</h3>
-                <p className="mt-1 text-sm text-gray-700">
-                  Local agents verify real-world events (delivery, quality, usage) and provide cryptographic
-                  confirmation. Both parties must confirm (handshake) for payment release.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Instant Settlement</h3>
-                <p className="mt-1 text-sm text-gray-700">
-                  Payment released immediately upon dual confirmation. USDC stablecoins enable instant settlement
-                  across currencies without volatility.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Section 3: Protocol Architecture */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">3. Protocol Architecture</h2>
-            <p className="mt-4 text-base text-gray-700">
-              AVTP is designed as protocol infrastructure, not a service company. Think Stripe for trust,
-              or HTTP for verified value transfer.
-            </p>
-            <div className="mt-6 space-y-4">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Core Components</h3>
-                <ul className="mt-1 list-disc list-inside text-sm text-gray-700 space-y-1">
-                  <li>Escrow smart contracts (Ethereum/Polygon)</li>
-                  <li>Broker verification network</li>
-                  <li>Cryptographic handshake mechanism</li>
-                  <li>USDC settlement layer</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Protocol Properties</h3>
-                <ul className="mt-1 list-disc list-inside text-sm text-gray-700 space-y-1">
-                  <li><strong>Non-custodial:</strong> Protocol doesn't hold funds, reduces regulatory burden</li>
-                  <li><strong>Abstracted:</strong> Same mechanism works for any value transfer type</li>
-                  <li><strong>Composable:</strong> Other protocols can build on AVTP</li>
-                  <li><strong>Cross-vertical:</strong> Brokers verify across multiple use cases</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Section 4: Use Cases & Market Opportunity */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">4. Use Cases & Market Opportunity</h2>
-            <p className="mt-4 text-base text-gray-700">
-              AVTP addresses over $1 trillion in addressable markets across multiple verticals, starting with
-              high-trust-friction, high-value transactions.
-            </p>
-            <div className="mt-6">
-              <h3 className="text-sm font-semibold text-gray-900">Initial Focus Areas:</h3>
-              <div className="mt-4 space-y-3">
-                <div className="bg-white p-3 rounded border border-gray-200">
-                  <p className="text-sm font-semibold text-gray-900">Trade Finance ($500B)</p>
-                  <p className="text-xs text-gray-600 mt-1">Replace Letters of Credit with instant settlement</p>
-                </div>
-                <div className="bg-white p-3 rounded border border-gray-200">
-                  <p className="text-sm font-semibold text-gray-900">India E-Commerce ($180B COD)</p>
-                  <p className="text-xs text-gray-600 mt-1">Digital escrow for cash-on-delivery replacement</p>
-                </div>
-                <div className="bg-white p-3 rounded border border-gray-200">
-                  <p className="text-sm font-semibold text-gray-900">Microfinance ($200B+)</p>
-                  <p className="text-xs text-gray-600 mt-1">Verify agricultural loan usage, reduce defaults 60%</p>
+      <div className="mx-auto max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          {/* Sidebar Navigation */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-20">
+              <h2 className="text-sm font-semibold text-gray-900 mb-4">Chapters</h2>
+              <nav className="space-y-2">
+                {chapters.map((chapter) => (
+                  <a
+                    key={chapter.num}
+                    href={chapter.file}
+                    className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md hover:text-gray-900"
+                  >
+                    <span className="font-semibold">{chapter.num}.</span> {chapter.title.split('—')[0].trim()}
+                  </a>
+                ))}
+              </nav>
+              <div className="mt-8 pt-8 border-t border-gray-200">
+                <h3 className="text-sm font-semibold text-gray-900 mb-3">Quick Links</h3>
+                <div className="space-y-2">
+                  <a href="/docs" className="block text-sm text-gray-600 hover:text-gray-900">All Documentation</a>
+                  <a href="/use-cases" className="block text-sm text-gray-600 hover:text-gray-900">Use Cases</a>
+                  <a href="/about" className="block text-sm text-gray-600 hover:text-gray-900">About Cyrus</a>
                 </div>
               </div>
             </div>
-          </div>
+          </aside>
 
-          {/* Go-to-Market Strategy */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">5. Go-to-Market Strategy</h2>
-            <p className="mt-4 text-base text-gray-700">
-              Enterprise-first (B2B2C) approach: Partner with enterprises who deploy their own broker networks.
-              This solves the two-sided marketplace chicken-egg problem.
-            </p>
-            <div className="mt-6 space-y-3">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Phase 1: Enterprise Partnerships</h3>
-                <p className="text-sm text-gray-700 mt-1">
-                  HDFC Bank (India COD), Flipkart (e-commerce), TechMahindra (trade finance)—enterprises bring
-                  both supply and demand
-                </p>
+          {/* Main Content */}
+          <div className="lg:col-span-3">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+                Technical Whitepaper
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                A comprehensive overview of the Abstracted Value Transfer Protocol (AVTP) and how it enables
+                trustless global commerce.
+              </p>
+            </div>
+
+            <div className="mt-12 space-y-16">
+              {/* Chapters */}
+              {chapters.map((chapter) => (
+                <div key={chapter.num} className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h2 className="text-2xl font-bold text-gray-900">
+                        Chapter {chapter.num}: {chapter.title.split('—')[1]?.trim() || chapter.title}
+                      </h2>
+                      <a
+                        href={chapter.file}
+                        className="text-sm text-gray-600 hover:text-gray-900 mt-1 inline-block"
+                      >
+                        Read full chapter →
+                      </a>
+                    </div>
+                  </div>
+                  <div className="mt-4">
+                    <h3 className="text-sm font-semibold text-gray-900 mb-2">Key Topics:</h3>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                      {chapter.sections.map((section, i) => (
+                        <li key={i} className="flex items-start">
+                          <span className="text-gray-400 mr-2">•</span>
+                          <span className="text-sm text-gray-700">{section}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+
+              {/* Additional Info */}
+              <div className="border-t border-gray-200 pt-16">
+                <h2 className="text-3xl font-bold text-gray-900 mb-8">Key Highlights</h2>
+
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">The Core Innovation: Abstraction</h3>
+                  <p className="text-base text-gray-700">
+                    AVTP is the first protocol that <strong>doesn't define what "value" means</strong>. The same
+                    escrow + verification mechanism works for money, goods, services, certificates, or any exchange.
+                    Think TCP/IP for value transfer—we move verified exchanges, applications define what's exchanged.
+                  </p>
+                </div>
+
+                <div className="bg-gray-50 p-6 rounded-lg mt-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">$1T+ Market Opportunity</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900">Trade Finance</p>
+                      <p className="text-2xl font-bold text-gray-900 mt-1">$500B</p>
+                      <p className="text-xs text-gray-600 mt-1">Letters of Credit replacement</p>
+                    </div>
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900">India COD</p>
+                      <p className="text-2xl font-bold text-gray-900 mt-1">$180B</p>
+                      <p className="text-xs text-gray-600 mt-1">Cash-on-delivery digital escrow</p>
+                    </div>
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900">Microfinance</p>
+                      <p className="text-2xl font-bold text-gray-900 mt-1">$200B+</p>
+                      <p className="text-xs text-gray-600 mt-1">Agricultural loan verification</p>
+                    </div>
+                    <div className="bg-white p-4 rounded border border-gray-200">
+                      <p className="font-semibold text-gray-900">Remittances</p>
+                      <p className="text-2xl font-bold text-gray-900 mt-1">$700B</p>
+                      <p className="text-xs text-gray-600 mt-1">Cross-border P2P transfers</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Phase 2: Cross-Vertical Network Effects</h3>
-                <p className="text-sm text-gray-700 mt-1">
-                  Same broker verifies COD delivery, microfinance purchases, freelance work—exponential scaling
-                </p>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-900">Phase 3: Protocol Infrastructure</h3>
-                <p className="text-sm text-gray-700 mt-1">
-                  Open protocol—other companies build on AVTP, similar to Stripe or Plaid
-                </p>
+
+              {/* CTA */}
+              <div className="mt-16 border-t border-gray-200 pt-10 text-center">
+                <h2 className="text-2xl font-bold text-gray-900">Explore Further</h2>
+                <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+                  <a
+                    href="/docs"
+                    className="rounded-md bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-gray-700"
+                  >
+                    All Documentation
+                  </a>
+                  <a
+                    href="/use-cases"
+                    className="rounded-md bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                  >
+                    View Use Cases
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Why Now */}
-          <div className="border-l-4 border-gray-900 bg-gray-50 p-6 rounded-r-lg">
-            <h2 className="text-2xl font-bold text-gray-900">6. Why Now?</h2>
-            <p className="mt-4 text-base text-gray-700">
-              Three technological shifts converge to make AVTP viable:
-            </p>
-            <div className="mt-6 space-y-2">
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="h-2 w-2 rounded-full bg-gray-900"></div>
-                </div>
-                <p className="ml-3 text-sm text-gray-700">
-                  <strong>Stablecoins (USDC):</strong> Instant settlement in multiple currencies without volatility
-                </p>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="h-2 w-2 rounded-full bg-gray-900"></div>
-                </div>
-                <p className="ml-3 text-sm text-gray-700">
-                  <strong>Smart contracts:</strong> Automate escrow logic without manual intermediaries
-                </p>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0 mt-1">
-                  <div className="h-2 w-2 rounded-full bg-gray-900"></div>
-                </div>
-                <p className="ml-3 text-sm text-gray-700">
-                  <strong>Mobile penetration:</strong> 90%+ smartphone adoption enables cryptographic verification
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="mt-16 border-t border-gray-200 pt-10 text-center">
-          <h2 className="text-2xl font-bold text-gray-900">Explore Further</h2>
-          <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/use-cases"
-              className="rounded-md bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-gray-700"
-            >
-              View Detailed Use Cases
-            </a>
-            <a
-              href="/about"
-              className="rounded-md bg-white px-6 py-3 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
-            >
-              Learn About Cyrus
-            </a>
           </div>
         </div>
       </div>
