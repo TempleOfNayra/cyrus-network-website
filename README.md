@@ -196,6 +196,39 @@ This is an early-stage project currently in development. We're seeking:
 
 ---
 
+## 🌐 Website
+
+This repository includes a Next.js website showcasing Cyrus Network.
+
+### Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+Visit http://localhost:3000 to view the site locally.
+
+### Deployment to Vercel
+
+1. Push this repository to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Import your repository
+4. Vercel will auto-detect Next.js and deploy
+
+No additional configuration needed!
+
+---
+
 ## 📚 Documentation
 
 - [Elevator Pitch](./elevator-pitch.md) - One-page investor overview
