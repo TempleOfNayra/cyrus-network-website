@@ -1,37 +1,37 @@
 export default function DocsPage() {
   const docs = {
     overview: [
-      { title: "Elevator Pitch", file: "/elevator-pitch.md", description: "One-page investor overview" },
-      { title: "Competitive Analysis", file: "/competitive-analysis.md", description: "Market analysis and failed projects" },
-      { title: "Terminology & Strategy", file: "/TERMINOLOGY-STRATEGY.md", description: "Strategic positioning and messaging" },
-      { title: "TODO", file: "/TODO.md", description: "Project roadmap and tasks" },
+      { title: "Elevator Pitch", file: "/view/elevator-pitch", description: "One-page investor overview" },
+      { title: "Competitive Analysis", file: "/view/competitive-analysis", description: "Market analysis and failed projects" },
+      { title: "Terminology & Strategy", file: "/view/TERMINOLOGY-STRATEGY", description: "Strategic positioning and messaging" },
+      { title: "TODO", file: "/view/TODO", description: "Project roadmap and tasks" },
     ],
     whitepaper: [
-      { title: "Chapter 1: The Problem", file: "/whitepaper/01-problem.md", description: "Global financial exclusion analysis" },
-      { title: "Chapter 2: The Solution", file: "/whitepaper/02-solution.md", description: "AVTP protocol overview" },
-      { title: "Chapter 3: Protocol Architecture", file: "/whitepaper/03-protocol.md", description: "Technical specification" },
-      { title: "Chapter 4: Use Cases", file: "/whitepaper/04-use-cases.md", description: "Market applications" },
+      { title: "Chapter 1: The Problem", file: "/view/whitepaper/01-problem", description: "Global financial exclusion analysis" },
+      { title: "Chapter 2: The Solution", file: "/view/whitepaper/02-solution", description: "AVTP protocol overview" },
+      { title: "Chapter 3: Protocol Architecture", file: "/view/whitepaper/03-protocol", description: "Technical specification" },
+      { title: "Chapter 4: Use Cases", file: "/view/whitepaper/04-use-cases", description: "Market applications" },
     ],
     useCases: [
-      { title: "Use Cases by Vertical", file: "/use-cases-by-vertical.md", description: "Detailed examples across industries" },
+      { title: "Use Cases by Vertical", file: "/view/use-cases-by-vertical", description: "Detailed examples across industries" },
     ],
     content: [
-      { title: "One Pager", file: "/content/one-pager.md", description: "Single-page product summary" },
-      { title: "Website Copy", file: "/content/website-copy.md", description: "Marketing website content" },
+      { title: "One Pager", file: "/view/content/one-pager", description: "Single-page product summary" },
+      { title: "Website Copy", file: "/view/content/website-copy", description: "Marketing website content" },
     ],
     enterprise: [
-      { title: "Go-to-Market Strategy", file: "/enterprise/GTM-STRATEGY.md", description: "Enterprise deployment strategy" },
+      { title: "Go-to-Market Strategy", file: "/view/enterprise/GTM-STRATEGY", description: "Enterprise deployment strategy" },
     ],
     finance: [
-      { title: "Unit Economics", file: "/finance/unit-economics.md", description: "Financial modeling and projections" },
+      { title: "Unit Economics", file: "/view/finance/unit-economics", description: "Financial modeling and projections" },
     ],
     pitch: [
-      { title: "Investor Examples", file: "/pitch/investor-examples.md", description: "Pitch examples and talking points" },
-      { title: "Pitch Deck Content", file: "/pitch/pitch-deck-content.md", description: "Slide-by-slide deck content" },
+      { title: "Investor Examples", file: "/view/pitch/investor-examples", description: "Pitch examples and talking points" },
+      { title: "Pitch Deck Content", file: "/view/pitch/pitch-deck-content", description: "Slide-by-slide deck content" },
     ],
     technical: [
-      { title: "Architecture", file: "/technical/architecture.md", description: "System architecture overview" },
-      { title: "Smart Contracts", file: "/technical/smart-contracts.md", description: "Contract specifications" },
+      { title: "Architecture", file: "/view/technical/architecture", description: "System architecture overview" },
+      { title: "Smart Contracts", file: "/view/technical/smart-contracts", description: "Contract specifications" },
     ],
   };
 

@@ -3,7 +3,7 @@ export default function Whitepaper() {
     {
       num: 1,
       title: "The Problem — Global Financial Exclusion",
-      file: "/whitepaper/01-problem.md",
+      file: "/view/whitepaper/01-problem",
       sections: [
         "The Remittance Crisis",
         "Cross-Border Commerce Barriers",
@@ -14,7 +14,7 @@ export default function Whitepaper() {
     {
       num: 2,
       title: "The Solution — Abstracted Value Transfer Protocol",
-      file: "/whitepaper/02-solution.md",
+      file: "/view/whitepaper/02-solution",
       sections: [
         "Core Insight: Abstraction",
         "Three-Layer Architecture",
@@ -26,7 +26,7 @@ export default function Whitepaper() {
     {
       num: 3,
       title: "Protocol Architecture",
-      file: "/whitepaper/03-protocol.md",
+      file: "/view/whitepaper/03-protocol",
       sections: [
         "Technical Specification",
         "Smart Contract Design",
@@ -38,7 +38,7 @@ export default function Whitepaper() {
     {
       num: 4,
       title: "Use Cases & Market Opportunity",
-      file: "/whitepaper/04-use-cases.md",
+      file: "/view/whitepaper/04-use-cases",
       sections: [
         "Remittances ($700B)",
         "Trade Finance ($500B)",
