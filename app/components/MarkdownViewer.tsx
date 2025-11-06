@@ -2,6 +2,7 @@
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 
 interface MarkdownViewerProps {
   content: string;
@@ -11,7 +12,7 @@ export default function MarkdownViewer({ content }: MarkdownViewerProps) {
   return (
     <div className="prose prose-gray max-w-none">
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkBreaks]}
         components={{
           h1: ({ children }) => (
             <h1 className="text-4xl font-bold text-gray-900 mt-8 mb-4">{children}</h1>
@@ -26,8 +27,9 @@ export default function MarkdownViewer({ content }: MarkdownViewerProps) {
             <h4 className="text-xl font-semibold text-gray-900 mt-4 mb-2">{children}</h4>
           ),
           p: ({ children }) => (
-            <p className="text-base text-gray-700 mb-4 leading-7">{children}</p>
+            <p className="text-base text-gray-700 mb-4 leading-7 whitespace-pre-line">{children}</p>
           ),
+          br: () => <br className="my-2" />,
           ul: ({ children }) => (
             <ul className="list-disc list-inside mb-4 space-y-2 text-gray-700">{children}</ul>
           ),
