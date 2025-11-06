@@ -11,15 +11,10 @@ export default function Home() {
               </span>
             </div>
             <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
-              Protocol Infrastructure for Verified Value Exchange
+              Trust Infrastructure for Global Commerce
             </h1>
-            <p className="mt-8 text-xl leading-8 text-gray-600 max-w-3xl mx-auto">
-              OpenBazaar failed. TradeLens (IBM + Maersk) shut down. LocalBitcoins closed.
-              <strong className="text-gray-900"> They tried to solve trust—but got the model wrong.</strong>
-            </p>
-            <p className="mt-4 text-lg leading-8 text-gray-700 max-w-3xl mx-auto">
-              We built the first <strong>abstracted trust protocol</strong>—smart contract escrow + physical broker verification
-              that works for <em>any</em> value transfer. One infrastructure layer, infinite verticals.
+            <p className="mt-8 text-xl leading-8 text-gray-700 max-w-3xl mx-auto">
+              Cyrus Network is trust infrastructure for global commerce. Our protocol combines smart contract escrow with broker verification to enable secure value exchange without traditional intermediaries.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
