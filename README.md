@@ -2,7 +2,7 @@
 
 > **The Trust Layer for Global Commerce**
 
-Cyrus Network is an Abstracted Value Transfer Protocol (AVTP) that enables peer-to-peer value exchange across borders without relying on traditional financial intermediaries. By combining smart contract escrow with human broker verification networks, we're building infrastructure for the internet economy.
+Cyrus Network is an Abstracted Value Transfer Protocol (AVTP) that enables peer-to-peer value exchange across borders without relying on traditional financial intermediaries. By combining smart contract escrow with independent broker verification networks, we provide open infrastructure where any broker can join and any application can build on top.
 
 ---
 
@@ -21,7 +21,20 @@ The infrastructure exists for the wealthy and connected, but not for the global 
 
 ## 💡 The Solution
 
-Cyrus implements the first **Abstracted Value Transfer Protocol** — a system that coordinates value exchange without defining what "value" means.
+Cyrus implements the first **Abstracted Value Transfer Protocol** — infrastructure that works for ANY type of value exchange.
+
+### The Key Insight
+
+**The protocol doesn't define what "value" means.**
+
+Same infrastructure handles:
+- 💵 **Cash** (remittances: send USDC, deliver local currency)
+- ☕ **Physical goods** (supply chain: escrow payment, verify coffee quality)
+- ⚡ **Certificates** (energy: trade renewable energy credits)
+- 🏠 **Services** (freelance: milestone-based payments)
+- 📦 **Marketplace trades** (eBay: international buyer/seller protection)
+
+**One protocol. Infinite use cases.**
 
 ### How It Works
 
@@ -33,13 +46,13 @@ Cyrus implements the first **Abstracted Value Transfer Protocol** — a system t
 5. On-chain reputation scores update for all parties
 ```
 
-**The innovation:** The protocol doesn't know or care if Bob delivered cash, coffee beans, energy certificates, or services. It only coordinates **escrow → verification → settlement**.
+What Bob actually delivered is **abstracted away** — the protocol only sees: **escrow → verification → settlement**.
 
 ---
 
 ## 🚀 Key Features
 
-- **Non-custodial**: Protocol never holds funds; smart contracts manage escrow
+- **Non-custodial**: Cyrus Network (the company) never holds or controls user funds. Smart contracts manage escrow trustlessly on-chain.
 - **Chain-agnostic**: Built to work across multiple blockchains (starting with Polygon)
 - **Human + Crypto**: Smart contracts for automation, local brokers for real-world verification
 - **Composable**: SDK for third-party integrations (marketplaces, wallets, enterprise systems)
@@ -59,10 +72,11 @@ Cyrus implements the first **Abstracted Value Transfer Protocol** — a system t
 - Buyer/seller protection with broker verification
 - Unlock $400B+ in currently impossible transactions
 
-### Phase 3: Supply Chain Finance
+### Phase 3: Supply Chain Finance *(Conceptual - requires enterprise validation)*
 - **Enterprise broker model**: Companies deploy verification agents globally
-- Example: Starbucks pays Ethiopian farmers instantly upon quality verification
+- Example scenario: Starbucks could pay Ethiopian farmers instantly upon quality verification
 - Direct relationships, instant settlement, full traceability
+- *Note: Enterprise use case requires market validation and pilot partnerships*
 
 ### Phase 4: Specialized Markets
 - **Energy**: Renewable energy certificates (I-RECs) direct trading
@@ -129,7 +143,7 @@ Cyrus implements the first **Abstracted Value Transfer Protocol** — a system t
 
 ### Q2 2025 (Proof of Concept)
 - [ ] Launch Nigeria-UK corridor
-- [ ] Onboard 50-100 brokers
+- [ ] Enable 50-100 brokers to join the platform
 - [ ] Process 1,000+ transactions
 - [ ] Mainnet deployment
 
@@ -247,14 +261,14 @@ No additional configuration needed!
 - [ ] Core team assembled
 - [ ] Protocol architecture designed
 - [ ] Smart contracts in development
-- [ ] Broker network recruitment
+- [ ] Broker network growth and support
 
 ---
 
 ## 🤔 FAQs
 
 ### Is this legal?
-Yes. Cyrus is a non-custodial protocol that never holds user funds. Local brokers handle compliance in their jurisdictions. We're infrastructure, not a money transmitter.
+Cyrus Network (the company) is non-custodial and never holds user funds—smart contracts manage escrow. Local brokers handle compliance in their jurisdictions. We provide infrastructure, not money transmission services. *Note: Regulatory classification should be confirmed with legal counsel in each jurisdiction.*
 
 ### Why not just use existing crypto?
 Crypto solves the middle (value transfer) but not the edges (fiat conversion). Cyrus solves the complete problem through broker networks.

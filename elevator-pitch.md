@@ -13,7 +13,16 @@ Maria, a Filipino nurse in Dubai, sends $500 home monthly. Western Union takes $
 
 ### The Solution: Abstracted Value Transfer Protocol
 
-Cyrus is the first protocol that coordinates value exchange **without defining what value means.**
+Cyrus is the first protocol that **works for ANY type of value exchange** — because it doesn't define what "value" means.
+
+**Same infrastructure handles:**
+- Remittances (send USDC → deliver cash)
+- Supply chains (escrow → verify coffee quality → pay farmer)
+- Energy markets (trade renewable certificates)
+- Marketplaces (international eBay/Etsy trades)
+- Services (milestone-based freelance payments)
+
+**One protocol. Infinite use cases.**
 
 **How it works:**
 1. Alice locks $100 USDC in a smart contract
@@ -22,13 +31,13 @@ Cyrus is the first protocol that coordinates value exchange **without defining w
 4. Payment releases automatically
 5. Reputation scores update on-chain
 
-What Bob delivered—cash, coffee beans, energy certificates—is abstracted. The protocol only sees: *escrow → verification → settlement.*
+What Bob delivered is **abstracted away** — the protocol only coordinates: *escrow → verification → settlement.*
 
 ---
 
 ### Why This Works
 
-**Non-custodial:** We never touch funds. Just coordination.
+**Non-custodial:** Cyrus Network never touches user funds. Smart contracts manage escrow; we provide coordination.
 **Regulatory arbitrage:** We're infrastructure, not a money transmitter.
 **Human + crypto:** Smart contracts for settlement, local brokers for verification.
 **Network effects:** Each broker serves multiple use cases; each use case adds liquidity.
@@ -70,7 +79,7 @@ What Bob delivered—cash, coffee beans, energy certificates—is abstracted. Th
 ✓ Stablecoins are mainstream
 ✓ Smart contracts are battle-tested
 ✓ Post-COVID digital payments adoption
-✓ Regulatory clarity improving (non-custodial advantage)
+✓ Regulatory clarity improving (non-custodial design may offer advantages)
 ✓ $2T+ addressable with existing tech
 
 ---

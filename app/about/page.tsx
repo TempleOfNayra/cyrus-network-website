@@ -38,7 +38,7 @@ export default function About() {
                 verification—no manual processing or intermediary delays
               </li>
               <li>
-                <strong>Physical Broker Verification:</strong> Local agents verify real-world events (delivery received,
+                <strong>Independent Broker Verification:</strong> Local agents verify real-world events (delivery received,
                 goods quality, loan usage) and provide cryptographic confirmation
               </li>
             </ul>
@@ -89,7 +89,7 @@ export default function About() {
             </p>
             <ul className="mt-6 space-y-4 list-disc list-inside">
               <li>
-                Partner with enterprises (HDFC Bank, Flipkart, TechMahindra) who deploy their own broker networks
+                Target enterprises (HDFC Bank, Flipkart, TechMahindra) who integrate Cyrus infrastructure with their existing operations
               </li>
               <li>
                 Avoid two-sided marketplace bootstrap problem—enterprises bring both supply and demand
@@ -98,6 +98,9 @@ export default function About() {
                 Enable cross-vertical network effects—same broker verifies multiple use cases
               </li>
             </ul>
+            <p className="mt-4 text-sm text-gray-600 italic">
+              *Note: Enterprise partnerships are target prospects requiring validation through pilot programs.
+            </p>
           </div>
 
           <div className="mt-16">

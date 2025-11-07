@@ -382,50 +382,36 @@ Protocol:
 
 ## 3.6 Dispute Resolution
 
-### Three-Tier System
+### Protocol-Level Approach
 
-**Tier 1: Automated (85% of disputes)**
+**Core principle:** Cyrus Network protocol facilitates resolution but doesn't arbitrate disputes between parties.
+
+**Automated Timeouts:**
 ```
-Triggers:
-- Timeout without confirmation (>24 hours)
-- Recipient claims non-delivery with counter-proof
-
-Resolution:
-- Smart contract reviews proof hashes
-- If broker has strong proof → release funds
-- If broker has weak/no proof → refund user
-- Reputation penalty to losing party
+If timeout occurs without confirmation:
+- >24 hours: Funds can be returned to sender
+- Broker's reputation penalized for non-delivery
+- No manual arbitration required
 ```
 
-**Tier 2: Broker Arbitration (10% of disputes)**
+**Conflicting Claims:**
 ```
-Triggers:
-- Both parties have conflicting proof
-- Amounts between $100-$5,000
-
-Process:
-- 3 high-reputation brokers randomly selected
-- Each reviews evidence independently
-- Majority vote determines outcome
-- Arbitrators earn $10-50 per case
-- Decision is binding
+If both parties dispute:
+- Transaction data (proofs, timestamps, GPS) visible on-chain
+- Parties negotiate resolution off-platform
+- Broker reputation impacted by dispute rate
+- High-dispute brokers naturally filtered out by users
 ```
 
-**Tier 3: DAO Governance (5% of disputes)**
-```
-Triggers:
-- High-value disputes (>$5,000)
-- Systemic issues
-- Appeals from Tier 2
+**Why this model:**
+- No centralized arbitration = regulatory simplicity
+- Market-based quality control via reputation
+- Parties free to pursue legal recourse if needed
+- Lower operational costs
 
-Process:
-- Token holders vote (future mechanism)
-- Legal experts may be consulted
-- Precedent-setting cases
-- Full transparency on outcome
-```
+***Note:** Complex arbitration mechanisms (multi-tier, DAO governance) may be added by applications built on the protocol, but are not part of core infrastructure.*
 
-### Dispute Metrics (Target)
+### Dispute Prevention (Target)
 
 | Metric | Target | Current Industry |
 |--------|--------|------------------|
@@ -663,7 +649,7 @@ for escrow in escrows:
 ### Regulatory Approach
 
 **Protocol level:**
-- Non-custodial (never holds user funds)
+- Non-custodial (Cyrus Network never holds user funds; smart contracts manage escrow)
 - No fiat transactions (USDC only)
 - Public blockchain (full transparency)
 - No jurisdiction (deployed permissionlessly)

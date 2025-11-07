@@ -37,7 +37,7 @@ Traditional finance serves the wealthy. **2.5 billion people are excluded.**
 
 ### Three-Layer Architecture
 
-1. **Smart Contract Escrow** — Non-custodial, automated, transparent
+1. **Smart Contract Escrow** — Company never holds funds, automated, transparent
 2. **Broker Verification Network** — Local agents bridge digital ↔ physical
 3. **Reputation System** — On-chain trust creates accountability
 
@@ -133,7 +133,7 @@ Traditional finance serves the wealthy. **2.5 billion people are excluded.**
 1. **Network effects** — More brokers → better coverage → more users → more brokers (winner-take-most)
 2. **Reputation data** — Multi-year transaction history, non-transferable
 3. **Protocol abstraction** — One infrastructure for all use cases (competitors locked into verticals)
-4. **Regulatory positioning** — Non-custodial = not a money transmitter
+4. **Regulatory positioning** — Non-custodial design (classification requires legal review)
 
 **Once we dominate a corridor, competitors can't catch up.**
 
@@ -187,7 +187,7 @@ Three convergent trends:
 ### Use of Funds
 
 - **40% Product** ($1.2M) — Smart contracts, mobile app, broker tools
-- **30% Broker Network** ($900K) — Recruit 500 brokers, training, liquidity incentives
+- **30% Broker Network** ($900K) — Enable 500 brokers to join, training, liquidity incentives
 - **20% Go-to-Market** ($600K) — User acquisition (target CAC <$50)
 - **10% Operations** ($300K) — Legal/compliance, insurance, general ops
 

@@ -349,6 +349,124 @@ This document compares the unit economics of launching with **enterprise supply 
 
 ---
 
+## Stress-Test Scenarios: What Could Go Wrong?
+
+***This section tests unit economics under adverse conditions to understand break-even requirements and failure modes.***
+
+### Scenario 1: High Broker Churn (Remittances)
+
+**Assumptions (base case):**
+- Broker churn: 20%/year
+- Replacement cost: $1,000 per broker
+
+**Stress test: 50% annual churn**
+- Need to replace 250 of 500 brokers
+- Cost: $250,000 additional
+- Impact on Year 1: -$250K (turns $150K revenue into -$100K)
+
+**Break-even requirement:**
+- Need 50,000 additional transactions to cover churn
+- Or 25,000 additional active users
+- **Conclusion:** High broker churn makes remittances unviable without significant scale
+
+### Scenario 2: High Dispute Rate
+
+**Assumptions (base case):**
+- Dispute rate: 2%
+- Resolution cost: $50 per dispute (manual review, arbitration)
+
+**Stress test: 5% dispute rate**
+- 200,000 transactions × 5% = 10,000 disputes
+- Cost: 10,000 × $50 = $500,000
+- Impact: Wipes out all profit
+
+**Break-even requirement:**
+- Need automated dispute resolution (reduce cost to <$5)
+- Or double transaction volume to absorb costs
+- **Conclusion:** Dispute resolution MUST be automated and cheap
+
+### Scenario 3: Gas Fee Spike (All Use Cases)
+
+**Assumptions (base case):**
+- Gas cost: $0.10 per transaction (Polygon)
+
+**Stress test: 10x gas increase**
+- Gas cost: $1.00 per transaction
+- Impact on remittances: $4.50 → $3.60 profit (20% hit)
+- Impact on supply chain: $250 → $249 profit (0.4% hit)
+
+**Conclusion:** Supply chain is insulated from gas spikes; remittances are vulnerable
+
+### Scenario 4: Regulatory Block (Remittances)
+
+**Stress test: Nigeria or UK blocks crypto remittances**
+- Lagos-London corridor: DEAD
+- Year 1 revenue: -$150K
+- Pivot required: New corridor from scratch
+
+**Mitigation:**
+- Launch 3 corridors simultaneously (not just 1)
+- Cost: 3× broker network investment
+- But regulatory risk reduced 67%
+
+**Supply chain equivalent:**
+- If Starbucks pilot fails, pivot to different enterprise
+- Broker network NOT wasted (reusable for different verticals)
+
+### Scenario 5: Competitors Undercut Pricing
+
+**Stress test: Wise drops fees to 0.5% (from 2%)**
+
+**Impact on remittances:**
+- Cyrus offers 1%, Wise offers 0.5%
+- Competitive advantage shrinks
+- Need to drop to 0.75% to compete
+- Gross margin: $4.50 → $3.40 (24% reduction)
+- Still better than Wise but closer
+
+**Impact on supply chain:**
+- No direct competitor (yet)
+- Even at 0.5% fee, $250 → $125 per transaction
+- Still massively better economics than remittances
+
+**Conclusion:** Supply chain has wider margin for error
+
+### Scenario 6: Enterprise Sales Cycle Longer Than Expected
+
+**Assumptions (base case):**
+- Close 5 enterprises in Year 1 (6-month sales cycle each)
+
+**Stress test: 12-month sales cycles**
+- Close 2-3 enterprises in Year 1 (not 5)
+- Revenue: $1.33M → $530K-800K
+- Still cash-flow positive or break-even
+
+**Mitigation:**
+- Pilot programs (3 months, $50K)
+- Prove ROI before asking for $250K/year contract
+- **Conclusion:** Even slow enterprise sales beats fast remittance growth
+
+---
+
+## Summary: Break-Even Analysis
+
+| Scenario | Remittances | Supply Chain |
+|----------|-------------|--------------|
+| **Base case** | -$4.85M (Year 1) | +$80K (Year 1) |
+| **High churn (50%)** | -$5.1M | -$50K |
+| **High disputes (5%)** | -$5.35M | +$30K |
+| **Gas spike (10x)** | -$5.03M | +$79K |
+| **Regulatory block** | Restart from zero | Pivot to new enterprise |
+| **Price war** | -$5M+ | Still profitable |
+| **Slow sales** | Same | +$30-80K |
+
+**Key insight:** Supply chain remains profitable or break-even in almost every adverse scenario. Remittances remain deeply unprofitable even in best cases.
+
+**Worst-case supply chain:** -$50K (high broker churn)
+**Best-case remittances:** -$2.3M (viral growth)
+
+---
+
 ## Conclusion
 
 **Supply chain economics are decisively better:**

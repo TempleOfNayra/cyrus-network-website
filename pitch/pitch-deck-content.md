@@ -137,7 +137,7 @@ The protocol doesn't care WHAT you're exchanging:
 **The Cyrus Stack**
 
 **Layer 1: Smart Contract Escrow**
-- Non-custodial (we never hold funds)
+- Non-custodial (Cyrus Network never holds funds; smart contracts manage escrow)
 - Automated release on verification
 - Polygon/Arbitrum (low fees)
 
@@ -367,7 +367,7 @@ Starting with remittances ($7B TAM), expanding to supply chains ($25B TAM)
 - We do everything on same infrastructure
 
 **4. Regulatory Positioning**
-- Non-custodial = not a money transmitter
+- Non-custodial design (regulatory classification varies by jurisdiction)
 - First-mover advantage in regulatory clarity
 
 **Once we dominate Lagos-London, competitors can't catch up**
@@ -449,7 +449,7 @@ Starting with remittances ($7B TAM), expanding to supply chains ($25B TAM)
 - API/SDK for integrations
 
 **Broker Network (30%) — $900K**
-- Recruit 500 brokers across 5 corridors
+- Enable 500 brokers to join across 5 corridors
 - Training and certification programs
 - Initial liquidity incentives
 

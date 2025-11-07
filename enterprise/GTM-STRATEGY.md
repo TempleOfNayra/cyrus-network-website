@@ -1,6 +1,8 @@
 # Go-to-Market Strategy: Supply Chain First
 
 > **Strategic Decision: Launch with enterprise supply chain, not consumer remittances**
+>
+> **⚠️ STATUS: CONCEPTUAL** - Requires validation through enterprise conversations and pilot partnerships
 
 ---
 
@@ -39,7 +41,7 @@ While Cyrus Network's Abstracted Value Transfer Protocol (AVTP) can serve multip
 ### 2. Broker Network Solved
 
 **Remittances:**
-- We recruit brokers (hard)
+- We enable brokers to join the platform (growth effort)
 - We train brokers (expensive)
 - We ensure liquidity (risky)
 - Need network effects before it's useful
@@ -297,8 +299,8 @@ Year 4: Full ecosystem
 - Verification (broker confirms delivery/quality)
 - Reputation (track broker + supplier performance)
 
-**2. Broker Dashboard (Web)**
-- Quality verification checklist
+**2. Broker Dashboard (Web)** *(Application layer - built on protocol)*
+- Quality verification checklist (customizable per vertical)
 - Photo/GPS upload to IPFS
 - Confirm delivery in smart contract
 - View reputation score + earnings

@@ -70,7 +70,7 @@ It just moves packets. Applications built on top define meaning.
 
 ### Layer 1: Smart Contract Escrow (Trust Automation)
 
-**What it does:** Holds value in a non-custodial smart contract until conditions are met.
+**What it does:** Holds value in smart contract escrow until conditions are met (Cyrus Network never has custody).
 
 **How it works:**
 ```solidity
@@ -107,7 +107,7 @@ contract CyrusEscrow {
 ```
 
 **Key features:**
-- **Non-custodial:** Cyrus never controls funds; smart contract holds them
+- **Non-custodial:** Cyrus Network (the company) never holds or controls funds; smart contract manages escrow
 - **Automated:** No human intervention needed for release
 - **Transparent:** All transactions visible on-chain
 - **Programmable:** Can add time locks, multi-sig, partial releases
@@ -255,7 +255,9 @@ BrokerProfile {
 
 ### Problem 3: Supply Chain (Starbucks → Ethiopian Farmers)
 
-**Corporate broker model:**
+***Note: This is a conceptual example demonstrating protocol capabilities. Enterprise adoption requires validation through pilot partnerships.***
+
+**Corporate broker model (theoretical):**
 
 1. **Starbucks deploys brokers in Ethiopia:**
    - Hires/trains 20 local coffee quality experts
@@ -296,7 +298,9 @@ BrokerProfile {
 
 ### Problem 4: Renewable Energy (Abhi's I-RECs)
 
-**BMW → Abhi direct trading:**
+***Note: This is a conceptual example. Energy market adoption requires partnerships with I-REC registries and corporate buyers.***
+
+**BMW → Abhi direct trading (theoretical):**
 
 1. **Abhi's solar farm generates energy:**
    - IoT sensors automatically log production
@@ -513,12 +517,12 @@ Indexing:  The Graph for fast queries
 **Why this corridor:**
 - Massive volume (400,000+ Nigerians in UK)
 - High fees (8-10% currently)
-- Strong existing informal networks (can recruit brokers)
+- Strong existing informal networks (can attract brokers to the platform)
 - Tech-savvy population (high smartphone usage)
 - Clear regulatory path (UK allows crypto businesses)
 
 **Milestones:**
-- 50 brokers recruited (25 in Lagos, 25 in London)
+- 50 brokers active on platform (25 in Lagos, 25 in London)
 - 1,000 transactions completed
 - $500,000 in volume
 - <2% dispute rate
@@ -589,7 +593,7 @@ Five convergent trends make 2025 the perfect time:
 - Trust in traditional institutions declining
 
 ### 5. Regulatory Tailwinds
-- Non-custodial protocols have clarity (not money transmitters)
+- Non-custodial protocols may have clearer regulatory paths (exact classification varies by jurisdiction)
 - Many countries actively supporting crypto innovation
 - Compliance tools (Chainalysis, TRM) mature
 

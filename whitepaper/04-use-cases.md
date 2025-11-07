@@ -92,13 +92,13 @@ This chapter explores the diverse use cases enabled by Cyrus Protocol, from remi
 - 400K+ Nigerians in UK
 - High fees (8-10% average)
 - Tech-savvy population
-- Existing informal networks to recruit brokers
+- Existing informal networks facilitate broker adoption
 - Clear regulatory path
 
 **Tactics:**
-1. **Broker recruitment:**
+1. **Broker onboarding strategy:**
    - Partner with existing money changers in Lagos/London
-   - Recruit 25 brokers in each city
+   - Support 25 brokers joining each city
    - Training program: 2-day certification
 
 2. **User acquisition:**
@@ -123,9 +123,9 @@ This chapter explores the diverse use cases enabled by Cyrus Protocol, from remi
 
 **Tactics:**
 - Replicate Lagos-London playbook
-- 50 brokers per new corridor
+- 50 active brokers per new corridor
 - Localized marketing (Tagalog, Hindi, Spanish)
-- Strategic partnerships (recruitment agencies, churches, community centers)
+- Strategic partnerships (money changer networks, churches, community centers)
 
 **Phase 3: Scale (Year 2)**
 

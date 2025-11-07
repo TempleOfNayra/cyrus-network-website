@@ -66,18 +66,18 @@
 ### Q: "What about regulatory risk?"
 
 **Answer:**
-*"We've designed around this from day one. We're a non-custodial protocol—we never touch user funds, only coordinate escrow. That means we're not a money transmitter under most jurisdictions. It's the same classification as Uniswap or dYdX—we're infrastructure, not a financial institution. Our brokers handle local compliance in their jurisdictions, the way hawala has operated legally for 1,000 years."*
+*"We've designed around this from day one. We're a non-custodial protocol—Cyrus Network never touches user funds, only coordinates escrow via smart contracts. This design may position us differently than traditional money transmitters in many jurisdictions, similar to DeFi protocols like Uniswap. Our brokers handle local compliance in their jurisdictions. We're working with legal counsel to confirm classification in each target market."*
 
 **Follow-up point:**
-*"We've had preliminary conversations with regulators in the UK, UAE, and Singapore. The feedback is clear: because we're non-custodial and transparent (everything on-chain), we're actually easier to regulate than traditional remittance companies. Think about it—governments love transparency. We give them full visibility into flows, which informal systems don't."*
+*"We plan to engage with regulators in the UK, UAE, and Singapore early in our launch. Our non-custodial, transparent design (everything on-chain) may actually be easier to regulate than traditional remittance companies. Governments value transparency—we provide full visibility into flows, which informal systems don't. However, regulatory classification will require formal legal review in each jurisdiction."*
 
 ### Q: "How do you solve the cold-start problem for brokers?"
 
 **Answer:**
-*"We don't bootstrap from zero. We recruit existing money changers, quality inspectors, and logistics providers who already have customers and infrastructure. In Lagos, there are 5,000+ informal money changers operating today—we give them software, smart contract guarantees, and access to global demand. For them, Cyrus is an upgrade to what they're already doing, not a new behavior."*
+*"We don't bootstrap from zero. We provide infrastructure that existing money changers, quality inspectors, and logistics providers can join. In Lagos, there are 5,000+ informal money changers operating today—we give them software, smart contract guarantees, and access to global demand. For them, Cyrus is an upgrade to what they're already doing, not a new behavior."*
 
 **Follow-up point:**
-*"Our pilot in Lagos-London: we've already identified 50 potential brokers from existing informal networks. They're excited because we're giving them legitimacy, reputation, and access to a bigger market. We're not creating supply; we're organizing existing supply with better infrastructure."*
+*"Our pilot in Lagos-London: we've already identified 50 potential brokers from existing informal networks. They're interested because we're giving them legitimacy, reputation, and access to a bigger market through an open platform. We're not creating supply; we're providing infrastructure that organizes existing supply."*
 
 ### Q: "Why can't someone just fork your protocol?"
 
@@ -144,7 +144,7 @@
 ### Objection: "Building a broker network sounds slow and expensive."
 
 **Response:**
-*"It's actually the opposite. Traditional remittance companies spend $50K-200K per physical location. We spend $0 on locations—brokers are independent contractors who bring their own infrastructure. We spend ~$1,000 per broker on training and onboarding. To get 500 brokers across 5 corridors, that's $500K total, versus $25-100 million for traditional physical networks."*
+*"It's actually the opposite. Traditional remittance companies spend $50K-200K per physical location. We spend $0 on locations—brokers are independent contractors who bring their own infrastructure. We invest ~$1,000 per broker on platform training and support. To enable 500 brokers across 5 corridors, that's $500K total, versus $25-100 million for traditional physical networks."*
 
 ### Objection: "What if stablecoins get regulated or banned?"
 

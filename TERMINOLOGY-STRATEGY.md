@@ -1,10 +1,14 @@
 # Owning "Abstracted Value Transfer Protocol" (AVTP)
 
-> **Strategic plan to establish AVTP as the definitive term for this new protocol primitive**
+> **⚠️ DEPRIORITIZED - This document describes future branding strategy. Focus on building first.**
+>
+> **Priority:** LOW - Revisit after product-market fit is proven (post-1000 transactions)
+>
+> **Why deprioritized:** Premature to push terminology ownership before the product exists and works. Build the protocol, prove the concept, THEN worry about owning the category name.
 
 ---
 
-## Why This Matters
+## Why This Matters *(Future strategy)*
 
 **Terminology = Moat**
 

@@ -14,7 +14,7 @@ export default function Home() {
               Trust Infrastructure for Global Commerce
             </h1>
             <p className="mt-8 text-xl leading-8 text-gray-700 max-w-3xl mx-auto">
-              Cyrus Network is trust infrastructure for global commerce. Our protocol combines smart contract escrow with broker verification to enable secure value exchange without traditional intermediaries.
+              Cyrus Network is trust infrastructure for global commerce. Our protocol combines smart contract escrow with independent broker verification to enable secure value exchange without traditional intermediaries.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -120,24 +120,27 @@ export default function Home() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Innovation #2: Enterprise B2B2C</h3>
                 <p className="text-base text-gray-700 mb-4">
-                  We're not building a marketplace. We're <strong>infrastructure that enterprises deploy.</strong>
+                  We're not building a marketplace. We're <strong>infrastructure that enterprises integrate.</strong>
                 </p>
                 <ul className="space-y-2 text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="mr-3 text-gray-400">→</span>
-                    <span><strong>HDFC Bank</strong> deploys brokers for COD verification</span>
+                    <span><strong>Target: HDFC Bank</strong> integrates Cyrus for COD verification</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-gray-400">→</span>
-                    <span><strong>TechMahindra</strong> deploys brokers for trade finance</span>
+                    <span><strong>Target: TechMahindra</strong> integrates Cyrus for trade finance</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-gray-400">→</span>
-                    <span><strong>Microfinance banks</strong> deploy brokers for loan verification</span>
+                    <span><strong>Target: Microfinance banks</strong> integrate Cyrus for loan verification</span>
                   </li>
                 </ul>
                 <p className="text-sm text-gray-600 mt-4">
                   <strong>Why this works:</strong> Enterprises bring both supply AND demand. No chicken-egg problem.
+                </p>
+                <p className="text-xs text-gray-500 mt-3 italic">
+                  *Note: Partnerships are conceptual and require validation through pilot programs.
                 </p>
               </div>
 
@@ -216,7 +219,7 @@ export default function Home() {
                 <ol className="mt-3 space-y-2 text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="mr-3 font-bold text-gray-900">1.</span>
-                    <span><strong>Phase 1:</strong> Partner with HDFC Bank (India COD), TechMahindra (trade finance)</span>
+                    <span><strong>Phase 1:</strong> Launch pilots with enterprises like HDFC Bank (India COD), TechMahindra (trade finance)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 font-bold text-gray-900">2.</span>
@@ -227,6 +230,9 @@ export default function Home() {
                     <span><strong>Phase 3:</strong> Open protocol—other companies build on AVTP (like Stripe, Plaid)</span>
                   </li>
                 </ol>
+                <p className="text-xs text-gray-500 mt-3 italic">
+                  *Enterprise partnerships are target prospects requiring validation.
+                </p>
               </div>
             </div>
           </div>
@@ -241,7 +247,7 @@ export default function Home() {
               Raising Seed Round
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-              We're raising a $2-5M seed to deploy our first enterprise partnerships (HDFC, TechMahindra) and
+              We're raising a $2-5M seed to launch pilot programs with target enterprises (HDFC, TechMahindra) and
               prove the B2B2C model works. Read our full analysis and technical whitepaper.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
